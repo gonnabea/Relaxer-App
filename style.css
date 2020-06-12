@@ -8,4 +8,31 @@ body{
     height: 100vh;
     background-color: aliceblue;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #017071;
+}
+
+.title{
+    color:white;
+}
+
+.circle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    background-color: black;
+    border: solid 10px green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
