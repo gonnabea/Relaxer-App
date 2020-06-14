@@ -6,13 +6,13 @@ body{
 .background{
     width: 100vw;
     height: 100vh;
-    background-color: aliceblue;
     overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #017071;
+    background-image: url("https://www.ecomagazine.com/images/Newsletter/0_2019/Week_11-18-19/birdseyeview_ocean.jpg");
+    background-size: cover;
 }
 
 .title{
@@ -25,9 +25,9 @@ body{
     align-items: center;
     border-radius: 100%;
     background-color: white;
-    width: 360px;
-    height: 360px;
-    background: linear-gradient(0deg, rgba(250,250,250,1) 0%, rgba(0,144,190,1) 57%, rgba(45,253,212,1) 86%);
+    width: 370px;
+    height: 370px;
+    background: conic-gradient( rgba(0,144,190,1), rgba(250,250,250,1), rgba(45,253,212,1));
     animation: shrinkCircle 10s infinite linear;
 }
 
@@ -40,6 +40,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .stick{
